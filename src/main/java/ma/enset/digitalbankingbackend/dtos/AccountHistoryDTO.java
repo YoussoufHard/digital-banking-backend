@@ -1,4 +1,4 @@
-package org.sid.ebankingbackend.dtos;
+package ma.enset.digitalbankingbackend.dtos;
 
 import lombok.Data;
 
