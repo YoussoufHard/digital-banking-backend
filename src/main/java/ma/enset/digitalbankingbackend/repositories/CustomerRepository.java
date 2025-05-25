@@ -1,6 +1,7 @@
-package org.sid.ebankingbackend.repositories;
+package ma.enset.digitalbankingbackend.repositories;
 
-import org.sid.ebankingbackend.entities.Customer;
+
+import ma.enset.digitalbankingbackend.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

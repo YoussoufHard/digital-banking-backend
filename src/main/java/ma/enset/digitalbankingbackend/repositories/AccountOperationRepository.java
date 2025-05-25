@@ -1,7 +1,7 @@
-package org.sid.ebankingbackend.repositories;
+package ma.enset.digitalbankingbackend.repositories;
 
-import org.sid.ebankingbackend.entities.AccountOperation;
-import org.sid.ebankingbackend.entities.BankAccount;
+import ma.enset.digitalbankingbackend.entities.AccountOperation;
+import ma.enset.digitalbankingbackend.enums.OperationType;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
