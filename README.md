@@ -45,6 +45,10 @@ ma.enset.digitalbankingbackend
 * Création, consultation, mise à jour et suppression de clients
 * Association d’un ou plusieurs comptes bancaires à un client
 
+Test de Customer avec mysql
+
+![TableCustomer](/images/img_2.png)
+
 #### ✅ Gestion des comptes bancaires
 
 * Création de :
@@ -54,12 +58,20 @@ ma.enset.digitalbankingbackend
 * Consultation des détails d’un compte
 * Listing des comptes d’un client
 
+Test de Compte bancaire avec mysql
+
+![TableBank_account](/images/img_3.png)
+
 #### ✅ Opérations bancaires
 
 * Crédit et débit sur un compte
 * Historique des opérations
 * Consultation du solde
 * Pagination de l’historique des opérations
+
+Test de Operation Bancaire avec mysql
+
+![TableBank_Operation](/images/img_1.png)
 
 #### ✅ Initialisation des données
 
