@@ -96,6 +96,13 @@ Un `CommandLineRunner` injecte automatiquement des données fictives à chaque d
 * Endpoints exposés sous `/api/customers`, `/api/accounts`, `/api/operations`, etc.
 * Compatible avec Swagger/OpenAPI si souhaité
 
+ La capture de la API REST exposé
+ ![APiRestExpose](/images/img_4.png)
+
+ La capture Avec Swagger/OpenAPI  et documentation api-docs
+ ![APiRestExpose](/images/img_5.png)
+
+ ![APidocs](/images/img_6.png)
 ---
 
 ### ▶️ Exécution du projet
@@ -104,7 +111,7 @@ Un `CommandLineRunner` injecte automatiquement des données fictives à chaque d
 
 1. Cloner le repo
 2. Lancer `DigitalBankingBackendApplication`
-3. Accéder à la console H2 : [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+3. Accéder à la console H2 : [http://localhost:8085/h2-console](http://localhost:8080/h2-console)
 
     * JDBC URL : `jdbc:h2:mem:testdb`
     * User : `sa`
