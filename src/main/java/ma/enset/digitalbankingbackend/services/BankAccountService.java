@@ -1,10 +1,6 @@
 package ma.enset.digitalbankingbackend.services;
 
 import ma.enset.digitalbankingbackend.dtos.*;
-import ma.enset.digitalbankingbackend.entities.BankAccount;
-import ma.enset.digitalbankingbackend.entities.CurrentAccount;
-import ma.enset.digitalbankingbackend.entities.Customer;
-import ma.enset.digitalbankingbackend.entities.SavingAccount;
 import ma.enset.digitalbankingbackend.exceptions.BalanceNotSufficientException;
 import ma.enset.digitalbankingbackend.exceptions.BankAccountNotFoundException;
 import ma.enset.digitalbankingbackend.exceptions.CustomerNotFoundException;
@@ -26,7 +22,7 @@ public interface BankAccountService {
 
     CustomerDTO updateCustomer(CustomerDTO customerDTO);
 
-    void deleteCustomer(Long customerId);
+    void deleteCustomer(Long customerId) throws CustomerNotFoundException;
 
     List<AccountOperationDTO> accountHistory(String accountId);
 

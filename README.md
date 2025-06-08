@@ -103,6 +103,41 @@ Un `CommandLineRunner` injecte automatiquement des données fictives à chaque d
  ![APiRestExpose](/images/img_5.png)
 
  ![APidocs](/images/img_6.png)
+
+### Tester les web services Restful
+
+#### La capture des test pour BankAccountRestapi
+
+![APiRest](/images/img_7.png)
+
+![APiRest](/images/img_8.png)
+
+![APiRest](/images/img_9.png)
+
+![APiRest](/images/img_10.png)
+
+![APiRest](/images/img_11.png)
+
+![APiRest](/images/img_12.png)
+
+#### La capture des test pour CustomerRestController
+
+![APiRest](/images/img_13.png)
+
+![APiRest](/images/img_14.png)
+
+![APiRest](/images/img_15.png)
+
+![APiRest](/images/img_16.png)
+
+![APiRest](/images/img_17.png)
+
+
+
+
+
+
+
 ---
 
 ### ▶️ Exécution du projet
@@ -130,14 +165,6 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-### ✅ À faire / Roadmap
-
-* [x] Gestion CRUD des clients et comptes
-* [x] Historique des opérations
-* [x] Seed initial via CommandLineRunner
-* [ ] Intégration complète de Spring Security + JWT
-* [ ] Tests unitaires et d’intégration
-* [ ] Documentation Swagger
 
 ---
 
